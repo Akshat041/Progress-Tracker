@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Activity Heatmap Calendar
 
-## Getting Started
+A lightweight, interactive calendar heatmap for tracking daily activities and productivity levels. Inspired by GitHub's contribution graph, this tool allows users to visualize and track their productivity patterns throughout the year.
+Features
 
-First, run the development server:
+## Interactive Calendar: Click on any day to cycle through different activity levels
+Visual Activity Tracking: Five distinct levels of activity representation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+No work (gray)
+Light work (light green)
+Moderate work (medium green)
+Productive day (green)
+Very productive (dark green)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Year Navigation: Browse different years using arrows or dropdown selector
+Today Highlighting: Current date is highlighted with an orange border
+Tooltips: Hover over days to see the full date
+Responsive Design: Works on both desktop and mobile devices
+No Dependencies: Pure HTML, CSS, and JavaScript implementation
+Lightweight: Single file solution with minimal footprint
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Track Activity: Click on any day to cycle through activity levels
+View Date: Hover over any square to see the full date
+Change Year: Use the arrow buttons or dropdown to navigate between years
 
-## Learn More
+## State Management
+The calendar currently uses in-memory storage for data management. Data will not persist between page refreshes. For persistence, consider implementing one of these solutions:
 
-To learn more about Next.js, take a look at the following resources:
+Download/upload functionality for JSON data
+IndexedDB integration
+Backend server connection
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Data Persistence
 
-## Deploy on Vercel
+Add local storage support
+Implement data export/import functionality
+Add backend integration options
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Enhanced Features
+
+Activity notes/comments
+Activity streaks tracking
+Weekly/monthly summaries
+Custom color themes
+Multiple activity types
+
+
+- Analytics
+
+Activity patterns analysis
+Productivity trends
+Weekly/monthly reports
+
+
+
+- License
+MIT License - feel free to modify and use in your projects.
+
+- Contributing
+Feel free to fork this project and submit pull requests for any improvements you'd like to add.
+
+- Support
+For issues and feature requests, please create an issue in the repository.
